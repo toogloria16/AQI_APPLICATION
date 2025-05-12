@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+streamlit run /usr/local/lib/python3.11/dist-packages/colab_kernel_launcher.py [ARGUMENTS]
 st.set_page_config(layout="wide")
 st.title("Air Quality Data Analysis App")
 
