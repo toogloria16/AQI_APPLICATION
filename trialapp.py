@@ -110,7 +110,7 @@ df['AQI_Bucket'] = aqi_buckets
 df['AQI_Color'] = aqi_colors
 df['AQI_Message'] = aqi_messages
     # Dummy AQI output for example
-    aqi = 85  # you would fetch this from an API or dataset
+     # you would fetch this from an API or dataset
     st.success(f"The current AQI for **{city}** is: **{aqi}**")
 
     # Provide air quality level color coding
